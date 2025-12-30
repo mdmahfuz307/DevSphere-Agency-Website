@@ -1,0 +1,41 @@
+:root {
+	--transition-duration: 200ms;
+}
+
+html[data-theme="dark"] {
+	color-scheme: dark;
+}
+
+body {
+	transition: background-color var(--transition-duration) ease, color var(--transition-duration) ease;
+}
+
+/* fallback background colors when daisyUI not applied immediately */
+html[data-theme="dark"] body { background-color: #0b1226; }
+html[data-theme="light"] body { background-color: #F2F4F8; }
+
+/* Dark-mode overrides for project-specific utility classes */
+html[data-theme="dark"] {
+	--wc-bg: #0b1226;
+	--wc-surface: #0f1724;
+	--wc-muted: #9ca3af;
+	--wc-muted-2: #6b7280;
+	--wc-text: #e6eef8;
+}
+
+html[data-theme="dark"] body {
+	background-color: var(--wc-bg) !important;
+	color: var(--wc-text) !important;
+}
+
+html[data-theme="dark"] .bg-secondary { background-color: var(--wc-surface) !important; }
+html[data-theme="dark"] .text-secondary { color: var(--wc-text) !important; }
+html[data-theme="dark"] .bg-base-100 { background-color: var(--wc-bg) !important; }
+html[data-theme="dark"] .text-gray-500 { color: var(--wc-muted) !important; }
+html[data-theme="dark"] .text-gray-400 { color: var(--wc-muted-2) !important; }
+html[data-theme="dark"] .border-gray-200 { border-color: rgba(255,255,255,0.06) !important; }
+html[data-theme="dark"] .bg-white { background-color: rgba(255,255,255,0.02) !important; }
+html[data-theme="dark"] .input.input-bordered { background-color: rgba(255,255,255,0.02) !important; border-color: rgba(255,255,255,0.06) !important; color: var(--wc-text) !important; }
+html[data-theme="dark"] .btn.btn-primary { background-color: #0F62FE !important; color: white !important; }
+html[data-theme="dark"] .btn.btn-outline { border-color: rgba(255,255,255,0.06) !important; color: var(--wc-text) !important; }
+
