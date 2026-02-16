@@ -21,7 +21,7 @@ const Footer = () => {
                 <LayoutDashboard className="text-white w-6 h-6" />
               </div>
               <span className="text-2xl font-bold tracking-tight">
-                Webcode<span className="text-primary">.</span>
+                DevSphere<span className="text-primary">.</span>
               </span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
@@ -30,25 +30,25 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.facebook.com/mdmahfuz307"
                 className="p-2 bg-gray-800 rounded-full hover:bg-primary transition-colors"
               >
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://x.com/mdmahfuz307"
                 className="p-2 bg-gray-800 rounded-full hover:bg-primary transition-colors"
               >
                 <Twitter className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/mdmahfuz307"
                 className="p-2 bg-gray-800 rounded-full hover:bg-primary transition-colors"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/mdmahfuz307/"
                 className="p-2 bg-gray-800 rounded-full hover:bg-primary transition-colors"
               >
                 <Linkedin className="w-5 h-5" />
@@ -99,9 +99,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-6">Contact Us</h3>
             <ul className="space-y-4 text-gray-400">
-              <li>Email: contact@webcode.com</li>
-              <li>Phone: +1 (234) 567-890</li>
-              <li>Address: 123 Tech Avenue, Silicon Valley, CA</li>
+              <li>Email: contact@devsphere.com</li>
+              <li>Phone: +88 017805-81185</li>
+              <li>Address: Uttora, Dhaka, BD</li>
             </ul>
           </div>
 
@@ -126,8 +126,8 @@ const Footer = () => {
 
         <div className="mt-20 pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
           <p>
-            © {new Date().getFullYear()} Webcode Agency. All rights reserved.
-            Built with ❤️ by Mahfuz
+            © {new Date().getFullYear()} DevSphere Agency. All rights reserved.
+            Built with ❤️ by Mahfuz Rahman Nirob
           </p>
         </div>
       </div>
