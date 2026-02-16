@@ -45,7 +45,7 @@ const Navbar = () => {
                 <LayoutDashboard className="text-white w-6 h-6" />
               </div>
               <span className={`text-2xl font-bold ${logoTextClass} tracking-tight`}>
-                Webcode<span className="text-primary">.</span>
+                DevSphere<span className="text-primary">.</span>
               </span>
             </Link>
           </div>
